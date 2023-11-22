@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <!--Favicon-->
+        <link rel="apple-touch-icon" sizes="180x180" href="./img/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+    <!--/Favicon-->
+
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Forum&family=Inter:wght@700&family=Roboto+Condensed:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <!--Fonts-->
+
+    <title>CV</title>
+</head>
+<body>
+    <header>
+        <div class="header_container">
+            <div class="header_wrapper">
+                <div class="img_wrapper">
+                    <img class="cv_photo cv_photo_close" src="./img/mycvphoto.jpg" alt="photo">
+                </div>
+                <ul class="nav_container nav_container_close">
+                    <li class="nav_item"><a class="item_title" href="#">About me</a></li>
+                    <li class="nav_item"><a class="item_title" href="#">Programing languages</a></li>
+                    <li class="nav_item"><a class="item_title" href="#">Example of a code</a></li>
+                    <li class="nav_item"><a class="item_title" href="#">Education</a></li>
+                    <li class="nav_item"><a class="item_title" href="#">Language skills</a></li>
+                    <li class="nav_item"><a class="item_title" href="#">Hobbies</a></li>
+                    <li class="nav_item contacts" ><a class="item_title" href="#">Contacts</a></li>
+                </ul>
+            </div>
+            <!--icon_adopt_menu-->
+            <div class="icon_adapt_menu icon_adapt_menu_close" >
+                <div class="icon_adapt_menu_wrapper">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+            </div>
+            <!--/icon_adopt_menu-->
+
+
+            <!--menu_modal_win-->
+           <!-- <section class="modal_menu_bg">
+                <div class="modla_menu_wrapper">
+                    <ul class="nav_container">
+                        <li class="nav_item"><a class="item_title" href="#">About me</a></li>
+                        <li class="nav_item"><a class="item_title" href="#">Programing languages</a></li>
+                        <li class="nav_item"><a class="item_title" href="#">Example of a code</a></li>
+                        <li class="nav_item"><a class="item_title" href="#">Education</a></li>
+                        <li class="nav_item"><a class="item_title" href="#">Language skills</a></li>
+                        <li class="nav_item"><a class="item_title" href="#">Hobbies</a></li>
+                        <li class="nav_item contacts" ><a class="item_title" href="#">Contacts</a></li>
+                    </ul>
+                </div>
+            </section>-->
+            <!--/menu_modal_win-->
+
+        </div>
+    </header>
+
+<main class="container">
+
+    <aside class="container_contacts contacts_bar_close">
+        <div class="container_contacts_wrapper">
+            <div class="name">
+                <h1 class="name_title">Andrew</h1>
+                <h2 class="name_title">Sparish</h2>
+            </div>
+
+            <div class="contacts_container_inner">
+                <h2 class="contacts_title">Contacts</h2>
+                <h2 class="location contacts_title_inner">Location: Minsk Belarus</h2>
+                <h2 class="Phone_num contacts_title_inner">Phone number: + 375 44 576 72 43 </h2>
+                <h2 class="Email contacts_title_inner">Email: Andrei.sp.93@gmail.com </h2>
+                <h2 class="git contacts_title_inner">GitHub:@RabbitDrew</h2>
+                <h2 class="discord contacts_title_inner">Discord: andreeew6158</h2>
+            </div>
+        </div>
+    </aside>
+        <section class="style_bar style_bar_close">
+            <div class="gr"></div>
+            <div class="yel"></div>
+        </section>
+    <section class="slider_container slider_close">
+
+        <div class="btn left">
+            <img class="btn_img" src="./img/left.png" alt="left">
+        </div>
+
+        <div class="slider_wrapper">
+            <div class="slider">
+
+                <article class="content about_me">
+                    <h2 class="about">About me</h2>
+                    <p class="about_me_inner">
+                        It's interesting for me to learn new things,
+                        I'd like to develop new skills
+                        particulaly in front-end and back-end dev.
+                        I'm hardworking persone and I'm capable doing multitask work
+                        I've been working as sales manager for private company.
+                        My work duties: Working with customers, purchaseing, organization of delivering prodacts, trading on commodity exchange.   
+                    </p>
+                </article>
+
+                <article class="content programming_languages">
+                    <h2 class="prog_lang_title">Programing languages</h2>
+                    <ul class="prog_lang_wrapper">
+                        <li class="prog_lang_item">
+                            <img src="./img/html.png" alt="HTML" class="prog_lang">
+                        </li>
+                        <li class="prog_lang_item">
+                            <img src="./img/css.png" alt="CSS" class="prog_lang">
+                        </li>
+                        <li class="prog_lang_item">
+                            <img src="./img/js.png" alt="JS" class="prog_lang">
+                        </li>
+                    </ul>
+                </article>
+
+                <article class="content example_of_a_code">
+                    <h2 class="example_of_a_code_title">Example of a code</h2>
+                    <p class="code"><code>
+                        function check(str, bracketsConfig) { <br>
+                            let stack = [];<br>
+                            let open = []<br>
+                            let close= []<br>
+                            const pairs = {};<br>
+                            for ( let i = 0; i &lt; bracketsConfig.length; i++) { <br>
+                                if (bracketsConfig[i].includes(bracketsConfig[i][0])) {<br>
+                                    open.push(bracketsConfig[i][0])<br>
+                                }<br>
+                                if (bracketsConfig[i].includes(bracketsConfig[i][1])) {<br>
+                                    close.push(bracketsConfig[i][1])<br>
+                                }<br>
+                            }<br>
+                            for (let i = 0; i &lt; bracketsConfig.length; i++) {<br>
+                                pairs[bracketsConfig[i][1]] = bracketsConfig[i][0];<br>
+                            }<br>
+                            for (let i = 0; i &lt; str.length; i++) {<br>
+                                let el = str[i];<br>
+                                if (open.includes(el)) {<br>
+                                if (close.includes(el) && pairs[el] === stack[stack.length - 1]) {
+                                stack.pop();<br>
+                                } else {<br>
+                                stack.push(el);<br>
+                                }<br>
+                                } else if (close.includes(el)) {<br>
+                            if (pairs[el] === stack[stack.length - 1]) {<br>
+                                stack.pop();<br>
+                            } else {<br>
+                                return false;<br>
+                            }<br>
+                            }<br>
+                            }<br>
+                            return stack.length === 0;<br>
+                            }<br>
+                    </code></p>
+                </article>
+
+                <article class="content education">
+                    <h2 class="education_title">Education</h2>
+                    <ul class="education_wrapper">
+                        <li class="edu_item"><h2 class="edu_title">Belarussian state economic univercity, logistician </h2></li>
+                        <li class="edu_item"><h2 class="edu_title">Big apple english classes</h2></li>
+                        <li class="edu_item"><h2 class="edu_title">RS school (in process)  </h2></li>
+                    </ul>
+                </article>
+
+                <article class="content language_skills">
+                    <h2 class="lang_skil_title">Language skills</h2>
+                    <ul class="lang_wrapper">
+                        <li class="lang_item"><h2 class="lan_title">English: B2 </h2></li>
+                        <li class="lang_item"><h2 class="lan_title">At this time I have just English classes as practice  </h2></li>
+                    </ul>
+                </article>
+
+                <article class="content hobbies">
+                    <h2 class="hobbies_title">Hobbies</h2>
+                    <ul class="hobbies_wrapper">
+                        <li class="hobbies_item">
+                            <img src="./img/arm-dumbbell-svgrepo-com.png" alt="jym" class="hobbies_img">
+                            <h2 class="hobbies_img_title">Jym</h2>
+                        </li>
+                        <li class="hobbies_item">
+                            <img src="./img/car-svgrepo-com.png" alt="car" class="hobbies_img">
+                            <h2 class="hobbies_img_title">Hobbies</h2>
+                        </li>
+                        <li class="hobbies_item">
+                            <img src="./img/wake-board-svgrepo-com.png" alt="wakeboard" class="hobbies_img">
+                            <h2 class="hobbies_img_title">Wakeboard</h2>
+                        </li>
+                    </ul>
+                </article>
+
+            </div>
+        </div>
+        <div class="btn right">
+            <img class="btn_img" src="./img/right.png" alt="">
+        </div>
+    </section>
+</main>
+
+<footer class="footer_container">
+        <ul class="footer_wrapper">
+            <li class="footer_item git_logo"><a class="git_link" href="https://github.com/RabbitDrew"><img class="git_logo_img" src="./img/git_logo.png" alt="git"></h2></a></li>
+            <li class="footer_item"><h2 class="year_title">2023</h2></li>
+            <li class="footer_item rsschool"><a class="school_link footer_logo" href="#"><img class="img_logo" src="./img/logo.png" alt="logo"></a></li>
+        </ul>
+</footer>
+<script src="./index.js"></script>
+</body>
+</html>
